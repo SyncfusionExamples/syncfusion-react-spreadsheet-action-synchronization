@@ -28,7 +28,7 @@ const Default = () => {
     return (<div className='control-pane'>
             <div className='control-section spreadsheet-control'>
                 <h2>Spreadsheet 1: </h2>
-                <SpreadsheetComponent openUrl='https://services.syncfusion.com/react/production/api/spreadsheet/open' saveUrl='https://services.syncfusion.com/react/production/api/spreadsheet/save' ref={spreadsheet1} actionComplete={onActionComplete1}>
+                <SpreadsheetComponent openUrl='https://document.syncfusion.com/web-services/spreadsheet-editor/api/spreadsheet/open' saveUrl='https://document.syncfusion.com/web-services/spreadsheet-editor/api/spreadsheet/save' ref={spreadsheet1} actionComplete={onActionComplete1}>
                     <SheetsDirective>
                         <SheetDirective name="Car Sales Report">
                             <RangesDirective>
@@ -49,7 +49,7 @@ const Default = () => {
             <br/>
             <div className='control-section spreadsheet-control'>
                 <h2>Spreadsheet 2: </h2>
-                <SpreadsheetComponent openUrl='https://services.syncfusion.com/react/production/api/spreadsheet/open' saveUrl='https://services.syncfusion.com/react/production/api/spreadsheet/save' ref={spreadsheet2} actionComplete={onActionComplete2}>
+                <SpreadsheetComponent openUrl='https://document.syncfusion.com/web-services/spreadsheet-editor/api/spreadsheet/open' saveUrl='https://document.syncfusion.com/web-services/spreadsheet-editor/api/spreadsheet/save' ref={spreadsheet2} actionComplete={onActionComplete2}>
                     <SheetsDirective>
                         <SheetDirective name="Car Sales Report">
                             <RangesDirective>
